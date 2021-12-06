@@ -8,7 +8,7 @@ from preprocess import process_image
 
 langs = "fas"  # Languages for OCR eng+fas
 dirname = os.path.dirname(os.path.dirname(__file__))
-input_dir = os.path.join(dirname, "data")  # Directory of pdf/image files
+input_dir = os.path.join(dirname, "data2")  # Directory of pdf/image files
 output_dir = os.path.join(dirname, "output")  # Directory of ocr'ed images
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
